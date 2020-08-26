@@ -3,4 +3,4 @@ This project is my first neural network. It tackles a binary classification prob
 
 Since the dataset is so small compared to the original dataset of 20000 images, issues like overfitting came up. I also used data augmentation to tackle overfitting and increase the accuracy. I also used the VGG16 model trained on the ImageNet dataset for my model and used feature extraction and fine-tuning to make the model better.
 
-
+Note: Be sure to enable GPU in Google Colab, if it's not enabled. Go to Runtime -> Change Runtime Type -> Hardware Accelerator and select GPU
